@@ -13,3 +13,9 @@ void MakeSecondArray(string[] arr1, string[] arr2)
         }
     }
 }
+void ShowArray(string[] arr)
+{
+    for(int i = 0; i < arr.Lenght; i++)
+        Console.Write(arr[i] + " ");
+    Console.WriteLine();
+}
